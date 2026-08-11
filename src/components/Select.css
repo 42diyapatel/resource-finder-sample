@@ -1,0 +1,28 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 220px;
+}
+
+.select__label {
+  color: var(--vesta-ink-soft);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.select__input {
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--vesta-line);
+  border-radius: var(--radius-sm);
+  background: var(--vesta-surface);
+  color: var(--vesta-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+}
+
+.select__input:hover {
+  border-color: var(--vesta-accent);
+}

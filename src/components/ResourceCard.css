@@ -1,0 +1,44 @@
+.resource-card {
+  padding: var(--space-4);
+  border: 1px solid var(--vesta-line);
+  border-radius: var(--radius-md);
+  background: var(--vesta-surface);
+  box-shadow: var(--shadow-card);
+}
+
+.resource-card__head {
+  display: flex;
+  gap: var(--space-3);
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.resource-card__name {
+  margin: 0;
+  font-size: var(--text-lg);
+  font-weight: 600;
+}
+
+.resource-card__meta {
+  margin: var(--space-1) 0 var(--space-3);
+  color: var(--vesta-ink-soft);
+  font-size: var(--text-sm);
+}
+
+.resource-card__foot {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resource-card__phone {
+  color: var(--vesta-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.resource-card__phone:hover {
+  text-decoration: underline;
+}

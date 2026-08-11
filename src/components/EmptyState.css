@@ -1,0 +1,18 @@
+.empty-state {
+  padding: var(--space-7) var(--space-4);
+  border: 1px dashed var(--vesta-line);
+  border-radius: var(--radius-md);
+  background: var(--vesta-surface);
+  text-align: center;
+}
+
+.empty-state__title {
+  margin: 0 0 var(--space-1);
+  font-weight: 600;
+}
+
+.empty-state__hint {
+  margin: 0;
+  color: var(--vesta-ink-soft);
+  font-size: var(--text-sm);
+}
