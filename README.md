@@ -1,4 +1,4 @@
-# VESTA Resource Finder
+# Resource Finder
 
 Small React + TypeScript app for browsing the partner service directory.
 
